@@ -2024,7 +2024,7 @@ a.link:hover span {
 	border-radius: 30px;
 	background-image: url(/images/searchcarbg.jpg);
 	background-size: cover;
-	padding: 85px 77px;
+	padding: 85px 77px 50px 77px;
 }
 .searchcars__content {}
 .searchcars__title {
@@ -2047,6 +2047,7 @@ a.link:hover span {
 .searchcars__content {
 	display: flex;
 	justify-content: space-between;
+	width: 100%;
 }
 .searchcarsform__items {
 	display: flex;
@@ -2186,7 +2187,7 @@ padding: 5px 20px;
 	opacity: 0.9;
 }
 
-.searchcarsform {
+.searchcarsform__wrapper {
 	margin-bottom: 19px;
 }
 
@@ -2201,9 +2202,28 @@ text-decoration-line: underline;
 
 color: #8C89A5;
 }
+.searchcarsfooter__text {
+	margin-right: 46px;
+	display: inline-block;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
 .searchcarsfooter__text a {
 	color: #fff;
 	text-decoration: underline;
+}
+.searchcarsfooter__text img {
+	margin-right: 13px;
+}
+
+.searchcarsfooter__text_more a {
+color: #8C89A5;;
+	text-decoration: underline;
+}
+.searchcarsfooter__text a:hover {
+	color: #fff;
+	text-decoration: none;
 }
 
 .searchcarsfooter__items {
@@ -2212,9 +2232,115 @@ color: #8C89A5;
 	padding: 0 20px;
 }
 
-.searchcarsfooter__text {
-	margin-right: 46px;
+
+
+.searchcarsfooter__item_last .searchcarsfooter__text {
+	margin-right: 0;
 }
+
+.searchcars__wrapper_nobg {
+	background-image: none;
+	background-color: #E8EAF2;
+	padding: 0 62px;
+	height: 100%;
+	min-height: 259px;
+	    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchcars {
+	
+}
+
+.searchcars__wrapper_nobg .searchcars__title {
+	color: #000;
+}
+
+.serviceslist__icon svg path {
+	fill: #000;
+	transition: all 0.3s ease;
+}
+
+.searchcars__services {}
+.serviceslist {}
+.serviceslist__wrapwe {}
+.serviceslist__items {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 -12px;
+}
+.serviceslist__item {
+	padding: 0 12px;
+}
+.serviceslist__content {
+	border: 1px solid transparent;
+	border-radius: 10px;
+}
+.serviceslist__content a{
+	border: 1px solid #CED2DF;
+	border-radius: 10px;
+	display: block;
+	width: 214px;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 8px 13px 10px 16px;
+}
+
+
+.serviceslist__image {}
+.serviceslist__icon {}
+.serviceslist__name {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+	width: 115px;
+	color: #2B2D38;
+	margin-left: 17px;
+}
+.green {}
+
+.serviceslist__content:hover svg path {
+	fill: #393185;
+}
+.serviceslist__content:hover a {
+	border: 1px solid #393185;
+}
+
+.serviceslist__content:hover  {
+	border: 1px solid #393185;
+}
+
+.green {
+	color: rgb(20,115,81);
+}
+
+.footer__sitepage {
+	background: #E8EAF2;
+border-radius: 30px;
+max-width: 100%;
+}
+
+.footer__sitepage .footer__main {
+	    max-width: 1176px;
+    margin: auto;
+    padding: 67px 0 40px 0;
+}
+.footer__sitepage .footer__bottom {
+	border-top: 1px solid #D6DAE9;
+}
+.header__phone a {
+color: #393185
+}
+
+.footermenu__menu ul li.active a {
+color: #393185;
+}
+
+
 
 @media (min-width:1024px) {
 	.hasChild:hover .submenu {
