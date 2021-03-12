@@ -1,43 +1,6 @@
-function sendForm(e) {
-    var i = e,
-        o = new FormData(e);
-    $(i).attr("data-metrika-target");
-    $.ajax({
-        type: "POST",
-        url: "/mail/send.php",
-        contentType: !1,
-        processData: !1,
-        data: o,
-        dataType: "json",
-        success: function(o) {
-            if (console.log(o), "success" == o.result) {
-                var r = $(i).find('input[name="name"]').val(),
-                    s = $(i).find('input[name="phone"]').val();
-                roistatGoal.reach({
-                    name: r,
-                    text: "Заявка",
-                    phone: s
-                }), $("input").removeClass("error_input"), $(".modal").on("show.bs.modal", function() {
-                    $(".modal").not($(this)).each(function() {
-                        $(this).modal("hide")
-                    })
-                }), $("#myModal_spasibo").modal("show"), $(i).find("input").val(""), ym(68064520, "reachGoal", "id1")
-            } else {
-                for (var a in $("input").removeClass("error_input"), o.text_error) $(e).find('input[name="' + a + '"]').addClass("error_input"), 0
-            }
-        },
-        error: function(e) {
-            console.log(e)
-        },
-        beforeSend: function() {
-            console.log("loading..."), $(".modal").prepend('<div class="loader">dd</div>')
-        },
-        complete: function() {
-            $(".loader").remove()
-        }
-    })
-}
+
 $(document).ready(function() {
+
 
      var kxx = 0
             $('.mainslider-nav_index').each(function () {
@@ -46,6 +9,59 @@ $(document).ready(function() {
                 $(this).find('.mainslider__number').width(myWidth + '%');
                 kxx = 0;
             });
+
+             $(".mainslider__slider_index").slick({
+                infinite: !0,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: !1,
+                autoplaySpeed: 3e3,
+                arrows: !1,
+                dots: !1,               
+                asNavFor: ".mainslider-nav_index"
+            }), $(".mainslider-nav_index").slick({
+                infinite: !0,
+                slidesToShow: 0,
+                slidesToScroll: 0,
+                asNavFor: ".mainslider__slider_index",
+                dots: !1,
+                arrows: !1,
+                centerMode: !1,
+                focusOnSelect: !0
+            });
+
+
+            
+
+       try {
+        $(".mainslider__slider").slick({
+            infinite: !0,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: !1,
+            autoplaySpeed: 3e3,
+            arrows: !0,
+            dots: !0,
+            prevArrow: $(".mainslider__left"),
+            nextArrow: $(".mainslider__right"),
+            asNavFor: ".mainslider-nav"
+        }), $(".mainslider-nav").slick({
+            infinite: !0,
+            slidesToShow: 0,
+            slidesToScroll: 0,
+            asNavFor: ".mainslider__slider",
+            dots: !1,
+            arrows: !1,
+            centerMode: !1,
+            focusOnSelect: !0
+        })
+    } catch (e) {}
+
+     
+           
+
+
+
 
 	$('.mobilemenubtn').on('click',function(){
 		$('.header__mainmenu').slideToggle();
@@ -81,50 +97,7 @@ $(document).ready(function() {
         prevArrow: $(".obzor__navleft"),
         nextArrow: $(".obzor__navright")
     });
-    try {
-        $(".mainslider__slider").slick({
-            infinite: !0,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: !1,
-            autoplaySpeed: 3e3,
-            arrows: !0,
-            dots: !0,
-            prevArrow: $(".mainslider__left"),
-            nextArrow: $(".mainslider__right"),
-            asNavFor: ".mainslider-nav"
-        }), $(".mainslider-nav").slick({
-            infinite: !0,
-            slidesToShow: 0,
-            slidesToScroll: 0,
-            asNavFor: ".mainslider__slider",
-            dots: !1,
-            arrows: !1,
-            centerMode: !1,
-            focusOnSelect: !0
-        })
-    } catch (e) {}
-
-     
-            $(".mainslider__slider_index").slick({
-                infinite: !0,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                autoplay: !1,
-                autoplaySpeed: 3e3,
-                arrows: !1,
-                dots: !1,               
-                asNavFor: ".mainslider-nav_index"
-            }), $(".mainslider-nav_index").slick({
-                infinite: !0,
-                slidesToShow: 0,
-                slidesToScroll: 0,
-                asNavFor: ".mainslider__slider_index",
-                dots: !1,
-                arrows: !1,
-                centerMode: !1,
-                focusOnSelect: !0
-            });
+ 
 
            
 
@@ -176,3 +149,43 @@ $(document).ready(function() {
     }
     $(".close-modal").on("click", e), $("#modal_close_href").on("click", e)
 });
+
+function sendForm(e) {
+    var i = e,
+        o = new FormData(e);
+    $(i).attr("data-metrika-target");
+    $.ajax({
+        type: "POST",
+        url: "/mail/send.php",
+        contentType: !1,
+        processData: !1,
+        data: o,
+        dataType: "json",
+        success: function(o) {
+            if (console.log(o), "success" == o.result) {
+                var r = $(i).find('input[name="name"]').val(),
+                    s = $(i).find('input[name="phone"]').val();
+                roistatGoal.reach({
+                    name: r,
+                    text: "Заявка",
+                    phone: s
+                }), $("input").removeClass("error_input"), $(".modal").on("show.bs.modal", function() {
+                    $(".modal").not($(this)).each(function() {
+                        $(this).modal("hide")
+                    })
+                }), $("#myModal_spasibo").modal("show"), $(i).find("input").val(""), ym(68064520, "reachGoal", "id1")
+            } else {
+                for (var a in $("input").removeClass("error_input"), o.text_error) $(e).find('input[name="' + a + '"]').addClass("error_input"), 0
+            }
+        },
+        error: function(e) {
+            console.log(e)
+        },
+        beforeSend: function() {
+            console.log("loading..."), $(".modal").prepend('<div class="loader">dd</div>')
+        },
+        complete: function() {
+            $(".loader").remove()
+        }
+    })
+}

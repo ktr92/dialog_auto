@@ -1685,6 +1685,7 @@ color: #5F657C;
 .topblock_sitepage .header__phone a {
 	font-size: 20px;
 line-height: 24px;
+color: #fff;
 }
 
 .topblock_sitepage .topheader {
@@ -2420,6 +2421,9 @@ color: #393185;
 		height: 100%;
 		overflow: hidden
 	}
+	.searchcars__form {
+		margin: auto;
+	}
 }
 
 #mobilemenu {
@@ -2432,6 +2436,7 @@ color: #393185;
 
 
 @media (max-width:1633px) {
+
 	.models__item1 > div {
 		width: 130px;
 	}
@@ -2486,9 +2491,81 @@ color: #393185;
 		height: 40px;
 		line-height: 36px;
 	}
+	.header__phone a {
+		white-space: nowrap;
+	}
+	.header__mainmenu > ul > li {
+		padding: 0 4px;
+	}
+	.topblock_sitepage .header__phone a {
+		font-size: 14px;
+		padding-left: 15px;
+	}
+	.topblock_sitepage .headermain {
+		padding: 15px 0;
+	}
+	.header__mainmenu > ul > li > a {
+		font-size: 14px;
+	}
+	.brandslist__items {
+		flex-wrap: wrap;
+	}
+	.carslistcard__price {
+		white-space: nowrap;
+		font-size: 16px;
+	}
+	.searchcars__content {
+		display: block;
+	}
+	.searchcars__title {
+		margin-bottom: 30px;
+		width: 100%;
+		text-align: center;
+	}
+	.searchcars__wrapper {
+		padding: 70px 30px;
+	}
+	.custom-select select {
+		width: 150px;
+	}
+	.searchcars__form {
+		max-width: 100%;
+	}
+	.serviceslist__items {
+		    flex-wrap: wrap;
+    justify-content: center;
+	}
+	.serviceslist__item {
+		margin-bottom: 20px;
+	}
+	.carslistcard__info {
+	    padding: 0 10px 10px 10px;
+	}
+	.carslistcard__title {
+		padding: 15px 10px;
+	}
+	.carslistcard__button {
+		bottom: -13px;
+	}
+	.topblock_sitepage .header__logos {
+		flex-wrap: nowrap;
+	}
+	.headerburger {
+		margin-left: 15px;
+	}
+	.topblock_sitepage .header__logos {
+		    width: 158px;
+	}
+	.header__like {
+    padding-left: 15px;
+}
+
 }
 
 @media (max-width:1279px) {
+
+
+
 	.sliderblock__item1:before {
 		top: 20px
 	}
