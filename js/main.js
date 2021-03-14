@@ -45,15 +45,16 @@ $(document).ready(function() {
             $(".newsslider__slider").slick({
                 infinite: true,
                 slidesToShow: 2,
-                slidesToScroll: 2,
+                slidesToScroll:1,
+                 centerPadding: '0px',
                 autoplay: false,
-                  centerMode: true,
-                    centerPadding: '40px',
+                    variableWidth: true,
+                centerMode: true,
                 true: 3000,
                 arrows: true,
                 dots: false,    
-                  prevArrow: $(".carsslider__arrow_left"),
-                  nextArrow: $(".carsslider__arrow_right"),           
+                  prevArrow: $(".newsslider__arrow_left"),
+                  nextArrow: $(".newsslider__arrow_right"),           
             });
 
 

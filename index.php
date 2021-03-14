@@ -912,7 +912,7 @@
 		</div>
 
 
-		<div class="oneblock">
+		<div class="oneblock" style="padding: 0 0 40px 0;">
 			<div class="container_small">
 				<div class="title title_row title_flex">
 					<h3>Новости Диалог-Авто</h3>
