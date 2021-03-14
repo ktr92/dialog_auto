@@ -11,23 +11,49 @@ $(document).ready(function() {
             });
 
              $(".mainslider__slider_index").slick({
-                infinite: !0,
+                infinite: true,
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                autoplay: !1,
+                autoplay: false,
                 autoplaySpeed: 3e3,
-                arrows: !1,
-                dots: !1,               
+                arrows: false,
+                dots: false,               
                 asNavFor: ".mainslider-nav_index"
             }), $(".mainslider-nav_index").slick({
-                infinite: !0,
+                infinite: true,
                 slidesToShow: 0,
                 slidesToScroll: 0,
                 asNavFor: ".mainslider__slider_index",
-                dots: !1,
-                arrows: !1,
-                centerMode: !1,
-                focusOnSelect: !0
+                dots: false,
+                arrows: false,
+                centerMode: false,
+                focusOnSelect: true
+            });
+
+             $(".carsslider__slider").slick({
+                infinite: true,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                autoplay: false,
+                true: 3000,
+                arrows: true,
+                dots: false,    
+                  prevArrow: $(".carsslider__arrow_left"),
+                  nextArrow: $(".carsslider__arrow_right"),           
+            });
+
+            $(".newsslider__slider").slick({
+                infinite: true,
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                autoplay: false,
+                  centerMode: true,
+                    centerPadding: '40px',
+                true: 3000,
+                arrows: true,
+                dots: false,    
+                  prevArrow: $(".carsslider__arrow_left"),
+                  nextArrow: $(".carsslider__arrow_right"),           
             });
 
 
@@ -35,25 +61,25 @@ $(document).ready(function() {
 
        try {
         $(".mainslider__slider").slick({
-            infinite: !0,
+            infinite: true,
             slidesToShow: 1,
             slidesToScroll: 1,
-            autoplay: !1,
+            autoplay: false,
             autoplaySpeed: 3e3,
-            arrows: !0,
-            dots: !0,
+            arrows: true,
+            dots: true,
             prevArrow: $(".mainslider__left"),
             nextArrow: $(".mainslider__right"),
             asNavFor: ".mainslider-nav"
         }), $(".mainslider-nav").slick({
-            infinite: !0,
+            infinite: true,
             slidesToShow: 0,
             slidesToScroll: 0,
             asNavFor: ".mainslider__slider",
-            dots: !1,
-            arrows: !1,
-            centerMode: !1,
-            focusOnSelect: !0
+            dots: false,
+            arrows: false,
+            centerMode: false,
+            focusOnSelect: true
         })
     } catch (e) {}
 
@@ -80,20 +106,20 @@ $(document).ready(function() {
         slidesToShow: 1,
         slidesToScroll: 1,
         initialSlide: 2,
-        arrows: !1,
-        fade: !0,
-        swipe: !1,
+        arrows: false,
+        fade: true,
+        swipe: false,
         asNavFor: ".obzor__navslider"
     }), $(".obzor__navslider").slick({
         slidesToShow: 0,
         slidesToScroll: 1,
         asNavFor: ".obzor__slider",
-        dots: !1,
-        infinite: !1,
+        dots: false,
+        infinite: false,
         initialSlide: 2,
-        centerMode: !0,
-        swipe: !1,
-        focusOnSelect: !0,
+        centerMode: true,
+        swipe: false,
+        focusOnSelect: true,
         prevArrow: $(".obzor__navleft"),
         nextArrow: $(".obzor__navright")
     });
@@ -109,26 +135,26 @@ $(document).ready(function() {
     try {
         $(".carslider__slider").each(function() {
             $(this).slick({
-                infinite: !0,
+                infinite: true,
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                autoplay: !1,
+                autoplay: false,
                 autoplaySpeed: 3e3,
-                arrows: !0,
-                dots: !1,
-                fade: !0,
+                arrows: true,
+                dots: false,
+                fade: true,
                 asNavFor: $(this).parent().parent().parent().find(".carslider-nav")
             })
         }), $(".carslider-nav").each(function() {
             $(this).slick({
-                infinite: !0,
+                infinite: true,
                 slidesToShow: 0,
                 slidesToScroll: 0,
                 asNavFor: $(this).parent().parent().find(".carslider__slider"),
-                dots: !1,
-                arrows: !1,
-                centerMode: !1,
-                focusOnSelect: !0
+                dots: false,
+                arrows: false,
+                centerMode: false,
+                focusOnSelect: true
             })
         })
     } catch (e) {}
@@ -157,8 +183,8 @@ function sendForm(e) {
     $.ajax({
         type: "POST",
         url: "/mail/send.php",
-        contentType: !1,
-        processData: !1,
+        contentType: false,
+        processData: false,
         data: o,
         dataType: "json",
         success: function(o) {

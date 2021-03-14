@@ -592,6 +592,216 @@
 			</div>
 		</div>
 
+		<div class="oneblock">
+			<div class="container container_small">
+				<div class="title_row">
+					<h2>Автомобили с пробегом в наличии</h2>
+					<a href="" class="link link_border">Смотреть все <b>1 569</b> авто </a>
+				</div>
+
+				<div class="carsslider">
+					<div class="carsslider__container">
+						<div class="carsslider__slider">
+							<div class="carsslider__slide">
+								<div class="carcard">
+									<div class="carcard__content">
+										<div class="carcard__image"><img src="/images/car1.jpg" alt=""></div>
+										<div class="carcard__main">
+											<div class="carcard__name"><a href="#">Hyundai Solaris 1.6 с пробегом</a></div>
+											<div class="carcard__params">
+												<div class="carcard__param">
+													<span class="carcard__paramname">Год выпуска: </span>
+													<span class="carcard__paramvalue">2016</span>
+												</div>
+												<div class="carcard__param">
+													<span class="carcard__paramname">Пробег: </span>
+													<span class="carcard__paramvalue">49 743 км</span>
+												</div>
+											</div>
+											<div class="carcard__info">седан, 1.6 л., 123 л.с., механика, передний, бензин</div>
+											<div class="carcard__total">
+												<div class="carcard__price">750 000 р.  </div>
+												<div class="carcard__credit">в кредит <b>от 7 161 р/мес.</b></div>
+											</div>
+											<div class="carcard__button"><a href="" class="btn_blue">Забронировать онлайн</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carsslider__slide">
+								<div class="carcard">
+									<div class="carcard__content">
+										<div class="carcard__image"><img src="/images/car2.jpg" alt=""></div>
+										<div class="carcard__main">
+											<div class="carcard__name"><a href="#">ВАЗ (LADA) 2114 Samara с пробегом </a></div>
+											<div class="carcard__params">
+												<div class="carcard__param">
+													<span class="carcard__paramname">Год выпуска: </span>
+													<span class="carcard__paramvalue">2016</span>
+												</div>
+												<div class="carcard__param">
+													<span class="carcard__paramname">Пробег: </span>
+													<span class="carcard__paramvalue">49 743 км</span>
+												</div>
+											</div>
+											<div class="carcard__info">седан, 1.6 л., 123 л.с., механика, передний, бензин</div>
+											<div class="carcard__total">
+												<div class="carcard__price">170 000 р.</div>
+												<div class="carcard__credit">в кредит <b>от 5 200 р/мес.</b></b></div>
+											</div>
+											<div class="carcard__button"><a href="" class="btn_blue">Забронировать онлайн</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carsslider__slide">
+								<div class="carcard">
+									<div class="carcard__content">
+										<div class="carcard__image"><img src="/images/car3.jpg" alt=""></div>
+										<div class="carcard__main">
+											<div class="carcard__name"><a href="#">ВАЗ (LADA) XRAY</a></div>
+											<div class="carcard__params">
+												<div class="carcard__param">
+													<span class="carcard__paramname">Год выпуска: </span>
+													<span class="carcard__paramvalue">2016</span>
+												</div>
+												<div class="carcard__param">
+													<span class="carcard__paramname">Пробег: </span>
+													<span class="carcard__paramvalue">49 743 км</span>
+												</div>
+											</div>
+											<div class="carcard__info">седан, 1.6 л., 123 л.с., механика, передний, бензин</div>
+											<div class="carcard__total">
+												<div class="carcard__price">636 000 р.  </div>
+												<div class="carcard__credit">в кредит <b>от 5 001 р/мес.</b></div>
+											</div>
+											<div class="carcard__button"><a href="" class="btn_blue">Забронировать онлайн</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carsslider__slide">
+								<div class="carcard">
+									<div class="carcard__content">
+										<div class="carcard__image"><img src="/images/car4.jpg" alt=""></div>
+										<div class="carcard__main">
+											<div class="carcard__name"><a href="#">ВАЗ (LADA) GRANTA с пробегом 1.6</a></div>
+											<div class="carcard__params">
+												<div class="carcard__param">
+													<span class="carcard__paramname">Год выпуска: </span>
+													<span class="carcard__paramvalue">2016</span>
+												</div>
+												<div class="carcard__param">
+													<span class="carcard__paramname">Пробег: </span>
+													<span class="carcard__paramvalue">49 743 км</span>
+												</div>
+											</div>
+											<div class="carcard__info">седан, 1.6 л., 123 л.с., механика, передний, бензин</div>
+											<div class="carcard__total">
+												<div class="carcard__price">201 000 р.  </div>
+												<div class="carcard__credit">в кредит <b>от 3 161 р/мес.</b></div>
+											</div>
+											<div class="carcard__button"><a href="" class="btn_blue">Забронировать онлайн</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carsslider__slide">
+								<div class="carcard">
+									<div class="carcard__content">
+										<div class="carcard__image"><img src="/images/car3.jpg" alt=""></div>
+										<div class="carcard__main">
+											<div class="carcard__name"><a href="#">ВАЗ (LADA) XRAY</a></div>
+											<div class="carcard__params">
+												<div class="carcard__param">
+													<span class="carcard__paramname">Год выпуска: </span>
+													<span class="carcard__paramvalue">2016</span>
+												</div>
+												<div class="carcard__param">
+													<span class="carcard__paramname">Пробег: </span>
+													<span class="carcard__paramvalue">49 743 км</span>
+												</div>
+											</div>
+											<div class="carcard__info">седан, 1.6 л., 123 л.с., механика, передний, бензин</div>
+											<div class="carcard__total">
+												<div class="carcard__price">636 000 р.  </div>
+												<div class="carcard__credit">в кредит <b>от 5 001 р/мес.</b></div>
+											</div>
+											<div class="carcard__button"><a href="" class="btn_blue">Забронировать онлайн</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carsslider__slide">
+								<div class="carcard">
+									<div class="carcard__content">
+										<div class="carcard__image"><img src="/images/car3.jpg" alt=""></div>
+										<div class="carcard__main">
+											<div class="carcard__name"><a href="#">ВАЗ (LADA) XRAY</a></div>
+											<div class="carcard__params">
+												<div class="carcard__param">
+													<span class="carcard__paramname">Год выпуска: </span>
+													<span class="carcard__paramvalue">2016</span>
+												</div>
+												<div class="carcard__param">
+													<span class="carcard__paramname">Пробег: </span>
+													<span class="carcard__paramvalue">49 743 км</span>
+												</div>
+											</div>
+											<div class="carcard__info">седан, 1.6 л., 123 л.с., механика, передний, бензин</div>
+											<div class="carcard__total">
+												<div class="carcard__price">636 000 р.  </div>
+												<div class="carcard__credit">в кредит <b>от 5 001 р/мес.</b></div>
+											</div>
+											<div class="carcard__button"><a href="" class="btn_blue">Забронировать онлайн</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+						</div>
+
+						<div class="carsslider__block carsslider__block_1">
+							<div class="carsslider__block__wrapper"></div>
+						</div>
+						<div class="carsslider__block carsslider__block_2">
+							<div class="carsslider__block__wrapper"></div>
+						</div>
+						<div class="carsslider__block carsslider__block_3">
+							<div class="carsslider__block__wrapper"></div>
+						</div>
+						<div class="carsslider__block carsslider__block_4">
+							<div class="carsslider__block__wrapper"></div>
+						</div>
+
+						<div class="carsslider__arrows">
+							<div class="carsslider__arrow carsslider__arrow_left">
+								<img src="/images/Group 46.png" alt="">
+							</div>
+							<div class="carsslider__arrow carsslider__arrow_right">
+								<img src="/images/Group 46.png" alt="">
+							</div>
+						</div>
+					</div>
+
+					<div class="carsslider__link">
+						<a href="#">
+							<span>Смотреть каталог автомобилей</span>
+							<svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.92109 3.55715L1.58832 5.83875C1.43441 5.94419 1.27933 6 1.15043 6C0.901227 6 0.74707 5.8 0.74707 5.46521L0.74707 0.534011C0.74707 0.199617 0.901032 9.53674e-07 1.14965 9.53674e-07C1.27875 9.53674e-07 1.43135 0.0558548 1.5856 0.161589L4.91992 2.44314C5.13435 2.59011 5.2531 2.78788 5.2531 3.00027C5.25315 3.21251 5.13576 3.41023 4.92109 3.55715Z" fill="#A5AABE"/>
+</svg>
+
+
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
 
 		<div class="searchcars searchcars_index">
 			<div class="container">
@@ -696,6 +906,93 @@
 								</div>
 							</div>						
 						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="oneblock">
+			<div class="container_small">
+				<div class="title title_row title_flex">
+					<h3>Новости Диалог-Авто</h3>
+					<a href="" class="link link_border">Показать все новости</a>
+				</div>
+			</div>
+			<div class="newsslider">
+				<div class="newsslider__container">
+					<div class="newsslider__slider">
+						<div class="newsslider__slide">
+							<div class="newscard">
+								<div class="newsslider__content">
+									<div class="newsslider__left">
+										<div class="newsslider__image"><img src="/images/news1.jpg" alt=""></div>
+										<div class="newsslider__date"><span>28 декабря 2020 г.</span></div>
+									</div>
+									<div class="newsslider__right">
+										<div class="newsslider__main">
+											<div class="newsslider__name"><a href="">Твори добро вместе с Диалог Авто</a></div>
+											<div class="newsslider__anonce">В преддверии Нового года мы все ждем волшебства, подарков и праздника. Многие из нас, наверное, задумывались о том, почему мир устроен так, как ...</div>
+											<div class="newsslider__link"><a href="" class="btn_play"><span>Смотреть</span></a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="newsslider__slide">
+							<div class="newscard">
+								<div class="newsslider__content">
+									<div class="newsslider__left">
+										<div class="newsslider__image"><img src="/images/news2.jpg" alt=""></div>
+										<div class="newsslider__date"><span>28 декабря 2020 г.</span></div>
+									</div>
+									<div class="newsslider__right">
+										<div class="newsslider__main">
+											<div class="newsslider__name"><a href="">TUGELLA СТАРТ ПРОДАЖ!</a></div>
+											<div class="newsslider__anonce">В преддверии Нового года мы все ждем волшебства, подарков и праздника. Многие из нас, наверное, задумывались о том, почему мир устроен так, как ...</div>
+											<div class="newsslider__link"><a href="" class="btn_play"><span>Смотреть</span></a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="newsslider__slide">
+							<div class="newscard">
+								<div class="newsslider__content">
+									<div class="newsslider__left">
+										<div class="newsslider__image"><img src="/images/news1.jpg" alt=""></div>
+										<div class="newsslider__date"><span>28 декабря 2020 г.</span></div>
+									</div>
+									<div class="newsslider__right">
+										<div class="newsslider__main">
+											<div class="newsslider__name"><a href="">Твори добро вместе с Диалог Авто</a></div>
+											<div class="newsslider__anonce">В преддверии Нового года мы все ждем волшебства, подарков и праздника. Многие из нас, наверное, задумывались о том, почему мир устроен так, как ...</div>
+											<div class="newsslider__link"><a href="" class="btn_play"><span>Смотреть</span></a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="newsslider__slide">
+							<div class="newscard">
+								<div class="newsslider__content">
+									<div class="newsslider__left">
+										<div class="newsslider__image"><img src="/images/news1.jpg" alt=""></div>
+										<div class="newsslider__date"><span>28 декабря 2020 г.</span></div>
+									</div>
+									<div class="newsslider__right">
+										<div class="newsslider__main">
+											<div class="newsslider__name"><a href="">Твори добро вместе с Диалог Авто</a></div>
+											<div class="newsslider__anonce">В преддверии Нового года мы все ждем волшебства, подарков и праздника. Многие из нас, наверное, задумывались о том, почему мир устроен так, как ...</div>
+											<div class="newsslider__link"><a href="" class="btn_play"><span>Смотреть</span></a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+
+
 					</div>
 				</div>
 			</div>
