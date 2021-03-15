@@ -57,6 +57,8 @@ $(document).ready(function() {
                   nextArrow: $(".newsslider__arrow_right"),           
             });
 
+          
+
 
             
 

@@ -918,6 +918,11 @@
 					<h3>Новости Диалог-Авто</h3>
 					<a href="" class="link link_border">Показать все новости</a>
 				</div>
+				<div class="slidermask">
+					<div class="slidermask_1"></div>
+					<div class="slidermask_2"></div>
+					
+				</div>
 			</div>
 			<div class="newsslider">
 				<div class="newsslider__container">
