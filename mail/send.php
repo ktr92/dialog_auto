@@ -15,7 +15,7 @@
 		// если нет ошибок сообщаем об успехе
 		echo json_encode(array('result' => 'success'));
 		
-	$to  = "leads.velvetmedia@gmail.com";
+	$to  = "email@email.com";
 				
 	$subject = "Geely Диалог-Авто - Новая заявка"; 
 
@@ -24,8 +24,8 @@
 				<p>Телефон: '.$_POST['phone'].'</br></p>';
 
 	$headers = 'Content-type: text/html; charset=utf-8' . "\r\n" .
-		'From: info@velvetmedia.ru' . "\r\n" .
-		'Reply-To: info@velvetmedia.ru' . "\r\n" .
+		'From: email@email.ru' . "\r\n" .
+		'Reply-To: email@email.ru' . "\r\n" .
 		'X-Mailer: PHP/' . phpversion();
 
 	mail($to, $subject, $message, $headers); 
